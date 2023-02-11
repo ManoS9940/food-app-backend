@@ -11,7 +11,7 @@ app.listen(PORT, () => console.log(`Server Connected to port ${PORT}`));
 
 
 app.use(cors({
-  origin:'http://localhost:3000', 
+  origin:'https://lively-valkyrie-1ddc45.netlify.app', 
 }));
 app.use(express.json());
 app.use(bodyParser.json());
